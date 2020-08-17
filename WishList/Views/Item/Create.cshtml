@@ -1,8 +1,6 @@
-﻿
-@model WishList.Models.Item
+﻿@model WishList.Models.Item
+    <h3>Add item to wishList</h3>
 
-<h3>Add item to wishList</h3>
-
-<form asp-action ="create">
-    <input asp-action="Decription" /><span>><button type="submit">Add Item</button></span>
-</form>
+    <form asp-action="create">
+        <input asp-action="Decription" /><span>><button type="submit">Add Item</button></span>
+    </form>
