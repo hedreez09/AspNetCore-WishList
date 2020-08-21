@@ -3,7 +3,7 @@
 
     <h3>Add item to wishList</h3>
 
-     <form asp-action="create">
+     <form asp-action="create" asp-controller="Item" method="post">
          <input asp-action="Description" />
          <span asp-validation-for="Description"></span>
          <button type="submit">Add Item</button>

@@ -16,7 +16,7 @@ namespace WishListTests
 
             string file;
             using (var streamReader = new StreamReader(filePath))
-            {
+            { 
                 file = streamReader.ReadToEnd();
             }
             var pattern = @"@model\s*WishList[.]Models[.]Item";
